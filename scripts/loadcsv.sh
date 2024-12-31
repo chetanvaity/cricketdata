@@ -11,7 +11,7 @@ SCHEMA="match_id:INTEGER,season:STRING,start_date:DATE,venue:STRING,innings:INTE
 
 # Loop through all CSV files in the specified directory
 for F in "$CSV_DIR"/??????.csv; do
-    echo "Attempting to load $file into BigQuery..."
+    echo "Attempting to load $F into BigQuery..."
     
     bq load --source_format=CSV \
     --skip_leading_rows=1 \
