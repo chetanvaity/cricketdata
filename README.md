@@ -24,3 +24,10 @@
       player_dismissed:STRING,other_wicket_type:STRING, \
       other_player_dismissed:STRING
    ```
+
+  ## Some stats about the dataset
+  - Total matches: 825 (most matches after 2001 are included)
+  - Total balls: 1.603,328 (1.6M)
+  - Total batsmen: 989
+  - Batsmen with more than 10 dismissals: 583 (for "good batsmen" related queries)
+  - 
